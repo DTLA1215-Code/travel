@@ -39,6 +39,7 @@
             <version>1.16.20</version>
         </dependency>
         <!--beanUtils-->
+        <!--实现前端参数和后端实体类的参数封装-->     
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
@@ -140,6 +141,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.20</version>
+        </dependency>
+        <!--糊涂工具集-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.4.1</version>
         </dependency>
     </dependencies>
 </project>
